@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.box {
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box1 {
+    text-align: center;
+    padding-top: 20%;
+
+}
+
+.box1 h1 {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin-bottom: 8px;
+}
+
+.box1 p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700px;
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+
+.box1 a {
+    background-color: #1D809F;
+    text-decoration: none;
+    padding: 20px 25px;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.box1 a:hover {
+    background-color: #113d4b;
+}
+
+.box2 {
+    height: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 10%;
+}
+
+.box2 h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.box2 p {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 60px;
+}
+
+.s {
+    color: #61B1E8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.d {
+    padding: 25px 35px;
+    color: white;
+    text-decoration: none;
+    background-color: #212529;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.d:hover {
+    background-color: #59626b;
+}
+
+.box3 {
+    height: 550px;
+    background-color: #1D809F;
+
+}
+
+.box3 h1 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.box3 h5 {
+    text-align: center;
+    color: yellow;
+    padding-top: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.box4 div {
+    text-align: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+}
+
+.box4 span {
+    padding-top: 50px;
+}
+
+.box4 i {
+    margin-top: 40%;
+    color: #1D809F;
+    font-size: 30px;
+}
+
+.box5 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.box6 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: #B1BFBA;
+}
+
+.box7 {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box8 {
+    text-align: center;
+    padding-top: 20%;
+    margin: auto;
+    width: 30%;
+}
+
+.box8 h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.box8 a {
+    background-color: #1D809F;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.box8 a:hover {
+    background-color: #113d4b;
+}
+
+.box9 {
+    padding: 30px 0;
+}
+
+.box10 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box10 h5 {
+    color: rgb(185, 107, 34);
+    padding-top: 100px;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+.box10 h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.box11 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.box11 .boxtext {
+    width: 50%;
+    position: relative;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.box11 .boxtext:hover {
+    transform: scale(0.9);
+}
+
+.box11 .boxtext img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.box-text {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+}
+
+.color {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2178a78c;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.boxtext:hover .color {
+    opacity: 1;
+    visibility: visible;
+}
+
+.box12 {
+    height: 350px;
+    background-color: #1D809F;
+    text-align: center;
+}
+
+.box13 {
+    padding-top: 110px;
+}
+
+.box13 h1 {
+    color: white;
+    padding-bottom: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+}
+
+.boxs {
+    padding: 25px 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    transition: 0.5s;
+    font-family: 'Arial', sans-serif;
+}
+
+.boxs1 {
+    background-color: black;
+    padding: 25px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    transition: 0.5s;
+    font-family: 'Arial', sans-serif;
+}
+
+.boxs:hover {
+    background-color: rgb(163, 160, 160);
+}
+
+.boxs1:hover {
+    background-color: rgb(56, 54, 54);
+}
+
+.i {
+    width: 100%;
+}
+
+.box14 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 200px;
+    align-items: center;
+}
+
+.box14 div {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #1D809F;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+.box14 div:hover {
+    background-color: #1a6279;
+}
+
+.box14 i {
+    margin-left: 24px;
+    margin-top: 20px;
+    color: white;
+}
+
+.p {
+    color: gray;
+    text-align: center;
+    height: 0;
+    margin-bottom: 80px;
+}
